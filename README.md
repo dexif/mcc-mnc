@@ -4,7 +4,7 @@ This Node.js script fetches HTML content from [mcc-mnc.com](https://mcc-mnc.com)
 
 ## Prerequisites
 
-- Node.js (version 12.17.0 or higher)
+- Node.js (version 21.2.0 or higher)
 
 ## Installation
 
@@ -18,11 +18,11 @@ This Node.js script fetches HTML content from [mcc-mnc.com](https://mcc-mnc.com)
 
 ## How to update data
 
-  Run the script:
+Run the script:
 
-    ```bash
-    node index.mjs
-    ```
+```bash
+node index.mjs
+```
 
 
 ## License
