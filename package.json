@@ -1,0 +1,21 @@
+{
+  "name": "mcc-mnc",
+  "version": "1.0.0",
+  "description": "Parse table from mcc-mnc.com into json array",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node index.mjs"
+  },
+  "keywords": [
+    "parser",
+    "mcc-mnc.com",
+    "json"
+  ],
+  "type": "module",
+  "author": "Evgenij Spitsyn",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^24.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
