@@ -35,8 +35,8 @@ async function fetchTableData(url) {
         });
 
         // Write data to a JSON file
-        await writeFile('mmc-mnc.json', JSON.stringify(data, null, 2));
-        console.log('Data has been written to mmc-mnc.json');
+        await writeFile('mcc-mnc.json', JSON.stringify(data, null, 2));
+        console.log('Data has been written to mcc-mnc.json');
     } catch (error) {
         console.error('Error fetching table data:', error);
     }
